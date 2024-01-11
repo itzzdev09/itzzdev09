@@ -1,7 +1,7 @@
 ![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/79731568097599.5b50bca477735.jpg)
 <h1 align="center">Hi 👋, I'm Devraj Pal</h1>
 <h3 align="center">Crafting Code for a Smarter Tomorrow 🚀</h3>
-<center><img align="right" alt="Coding" width="500" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDRzN3VjaTBvZG1qMXRnZG5kZzVjc3IwNGlrb2ExbzR3ZGdzNWN1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"></center>
+<img align="right" alt="Coding" width="500" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDRzN3VjaTBvZG1qMXRnZG5kZzVjc3IwNGlrb2ExbzR3ZGdzNWN1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=itzzdev09&label=Profile%20views&color=0e75b6&style=flat" alt="itzzdev09" /> </p>
 
