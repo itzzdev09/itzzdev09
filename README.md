@@ -5,9 +5,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=itzzdev09&label=Profile%20views&color=0e75b6&style=flat" alt="itzzdev09" /> </p>
 
-- 🌱 I’m currently learning **Javascript, Python(ML), frameworks**
+- 🌱 I’m currently learning **DSA, , DEVELOPMENT, DEVOPS**
 
-- 💬 Ask me about **Python, Js, React**
+- 💬 Ask me about **Python, Js, C++**
 
 - 📫 How to reach me **connectingwithdev@gmail.com**
 
