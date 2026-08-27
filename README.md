@@ -1,126 +1,192 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Devraj%20Pal&fontSize=70&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20%26%20Machine%20Learning%20Developer&descFontSize=20&descAlignY=62&fontColor=ffffff" width="100%" />
 
-  <p align="center">
-    <a href="https://linkedin.com/in/devraj-pal" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:connectingwithdev@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://github.com/itzzdev09?tab=repositories">
-      <img src="https://img.shields.io/badge/Projects-100000?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
-    </a>
-    <a href="https://www.hackerearth.com/@devved90" target="_blank">
-      <img src="https://img.shields.io/badge/HackerEarth-323754?style=for-the-badge&logo=hackerearth&logoColor=white" alt="HackerEarth" />
-    </a>
-  </p>
+# ⚡ Devraj Pal (itzzdev09)
+### *Full-Stack Software Engineer • Machine Learning Practitioner • Cloud & DevOps*
 
-  <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+Scalable+Full-Stack+Web+Applications;Architecting+Explainable+Machine+Learning+Pipelines;Specializing+in+Next.js%2C+Python%2C+PyTorch+%26+Cloud+DevOps;Crafting+Production-Ready+Software+at+Scale" alt="Typing SVG" />
-  </p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=1200&color=00F0FF&center=true&vCenter=true&width=720&lines=Building+Scalable+Full-Stack+Web+Platforms;Architecting+Explainable+Machine+Learning+Pipelines;Next.js+15+%7C+Python+%7C+PyTorch+%7C+TypeScript+%7C+Docker+%7C+K8s;Engineering+Reliable+Distributed+Systems+%40+Scale)](https://github.com/itzzdev09)
+
+<p align="center">
+  <a href="https://linkedin.com/in/devraj-pal" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:connectingwithdev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/itzzdev09?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub_Repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos" />
+  </a>
+  <a href="https://komarev.com/ghpvc/?username=itzzdev09&style=for-the-badge&color=00F0FF">
+    <img src="https://komarev.com/ghpvc/?username=itzzdev09&style=for-the-badge&color=00F0FF" alt="Profile Views" />
+  </a>
+</p>
+
 </div>
 
 ---
 
-### 👨‍💻 About Me
+### 🖥️ `$ whoami`
 
-```yaml
-name: Devraj Pal
-handle: itzzdev09
-role: Full-Stack & Machine Learning Software Engineer
-focus_areas: [Distributed Systems, Explainable AI, Predictive ML, Cloud Infrastructure]
-current_work:
-  - Building PrepArsenal (AI-Powered Exam Intelligence & Adaptive Testing Platform)
-  - Developing Machine Learning decision systems & causal pricing pipelines
-open_for: [Full-Stack Engineering, ML Engineering Roles, Open Source Collaborations]
-quote: "Engineering robust, scalable software with data-driven intelligence."
+```bash
+devraj@workstation:~$ neofetch --profile
 ```
 
-- 🔭 **Currently Building**: [PrepArsenal](https://github.com/itzzdev09/PrepArsenal) — Next.js 15, Supabase & Python-powered adaptive prep engine with 25,000+ verified PYQs.
-- 🧠 **Research Interests**: Explainable AI (XAI with SHAP/CatBoost), Real-time Data Pipelines (Kafka/Redis), Item Response Theory (IRT) Adaptive Systems.
-- 🛠️ **Core Strengths**: Clean Architecture, Microservices, API Performance Optimization, Database Scaling, Automated CI/CD.
-- 📫 **Direct Reach**: [connectingwithdev@gmail.com](mailto:connectingwithdev@gmail.com)
+```yaml
+  OS: Linux / Windows Subsystem for Linux (WSL2)
+  Kernel: Clean Architecture & Modular Microservices
+  Uptime: 24/7 Problem Solver & Lifelong Learner
+  
+  Current Roles:
+    - 🚀 Full-Stack Architect @ PrepArsenal (Next.js 15, Supabase, Python, LLM RAG)
+    - 🔬 ML Systems Engineer (Explainable AI, PyTorch, CatBoost, SHAP)
+  
+  Tech Stack:
+    - Frontend: Next.js 15, React 19, TypeScript, Tailwind CSS, Responsive UI
+    - Backend: Node.js, Express, Python (Django, Flask, FastAPI), RESTful & GraphQL APIs
+    - ML / Data: PyTorch, CatBoost, Scikit-Learn, Pandas, NumPy, Kafka, Redis
+    - Cloud / DevOps: Docker, Kubernetes, Microsoft Azure, Linux, CI/CD Actions
+  
+  Engineering Core:
+    - "Simplicity over complexity. Production-grade resilience over quick hacks."
+```
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🚀 Interactive Tech Stack
 
 <div align="center">
 
-#### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+#### Languages & Core Technologies
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,html,css,bash&perline=7" alt="Languages" />
+  </a>
+</p>
 
-#### 🚀 Frameworks & Libraries
-![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+#### Frameworks, Libraries & Full-Stack
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,express,django,flask,tailwind&perline=7" alt="Frameworks" />
+  </a>
+</p>
 
-#### 🗄️ Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+#### Machine Learning, Data & Caching
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,postgres,mongodb,redis,sqlite,kafka&perline=7" alt="Data & ML" />
+  </a>
+</p>
 
-#### ☁️ DevOps, Cloud & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+#### Cloud, DevOps & Engineering Tools
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,git,linux,grafana,postman&perline=7" alt="DevOps" />
+  </a>
+</p>
 
 </div>
 
 ---
 
-### 🌟 Featured Repositories
+### 🏆 Featured Flagship Repositories
 
-| Project | Tech Stack | Description |
-|---|---|---|
-| 🎯 **[PrepArsenal](https://github.com/itzzdev09/PrepArsenal)** | `Next.js 15` `Supabase` `Python` `TypeScript` | AI-powered competitive exam prep platform featuring 25,800+ deterministic PYQs, Item Response Theory (IRT) adaptive engine, and shift-wise intelligence. |
-| 🛡️ **[XAI-PyTorch-IDS](https://github.com/itzzdev09/XAI-PyTorch-IDS)** | `PyTorch` `CatBoost` `SHAP` `Python` | Explainable AI multi-class network intrusion detection system handling imbalanced datasets with GPU/CPU stratified downsampling and interpretability. |
-| 🏡 **[Flat-AI](https://github.com/itzzdev09/Flat-AI)** | `React` `Node.js` `Express` `Django` `ML` | Full-stack MERN & Python platform for property listings with machine learning price forecasting and personalized recommendation engine. |
-| 📈 **[PrismPrice](https://github.com/itzzdev09/PrismPrice)** | `Python` `Pandas` `Scikit-Learn` `Kafka` | Enterprise dynamic pricing decision-support system modeling price elasticity, customer retention, and automated governance. |
-| 🏙️ **[delhi-rent-forecasting](https://github.com/itzzdev09/delhi-rent-forecasting)** | `PyTorch` `LSTM` `Streamlit` `Python` | Deep learning LSTM and regression pipeline for real-estate rental price forecasting with interactive visualization dashboard. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎯 <a href="https://github.com/itzzdev09/PrepArsenal">PrepArsenal</a></h3>
+      <p><b>AI-Powered Exam Preparation & Adaptive Testing Engine</b></p>
+      <ul>
+        <li>Ingested <b>25,800+ deterministic PYQs</b> across 9 high-stakes competitive exams.</li>
+        <li>Item Response Theory (IRT) adaptive practice algorithms & ML trend forecasting.</li>
+        <li>Built with <code>Next.js 15</code>, <code>Supabase</code>, <code>TypeScript</code>, and <code>Python</code>.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/itzzdev09/XAI-PyTorch-IDS">XAI-PyTorch-IDS</a></h3>
+      <p><b>Explainable AI Network Intrusion Detection System</b></p>
+      <ul>
+        <li>Multi-class intrusion detection on imbalanced datasets using CatBoost with GPU acceleration.</li>
+        <li>Model interpretability using <b>SHAP feature importance</b> & stratified downsampling.</li>
+        <li>Built with <code>PyTorch</code>, <code>CatBoost</code>, <code>SHAP</code>, and <code>Python</code>.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/Explainable_AI-7928CA?style=flat-square" />
+        <img src="https://img.shields.io/badge/SHAP-FF6F00?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏡 <a href="https://github.com/itzzdev09/Flat-AI">Flat-AI</a></h3>
+      <p><b>Smart Real-Estate Marketplace & Valuation Platform</b></p>
+      <ul>
+        <li>End-to-end MERN platform for property discovery with intelligent recommendation engine.</li>
+        <li>Integrated Django ML microservice for automated real-time property price estimation.</li>
+        <li>Built with <code>React</code>, <code>Node.js</code>, <code>Express</code>, <code>Django</code>, and <code>MongoDB</code>.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Django_ML-092E20?style=flat-square&logo=django&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 <a href="https://github.com/itzzdev09/PrismPrice">PrismPrice</a></h3>
+      <p><b>Dynamic Pricing Decision-Support Engine</b></p>
+      <ul>
+        <li>Real-time price elasticity modeling, demand curve estimation, and customer retention metrics.</li>
+        <li>Automated price governance and causal revenue optimization.</li>
+        <li>Built with <code>Python</code>, <code>Kafka</code>, <code>Scikit-Learn</code>, and <code>Pandas</code>.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" />
+        <img src="https://img.shields.io/badge/Dynamic_Pricing-008080?style=flat-square" />
+        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📊 System Architecture & Engineering Principles
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzdev09&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzdev09&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-  
-  <br/>
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itzzdev09&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</div>
+```
+  ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+  │  Next.js / SSR  │ ────> │ Node/Express API│ ────> │ PostgreSQL / DB │
+  │ React & Tailwind│       │  Auth & Routing │       │ Supabase & RLS  │
+  └─────────────────┘       └─────────────────┘       └─────────────────┘
+           │                         │                         │
+           ▼                         ▼                         ▼
+  ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+  │ PyTorch / ML Svc│ <───> │ Redis & Caching │ <───> │ Docker & K8s CI │
+  │  XAI & CatBoost │       │ Real-Time Queue │       │ Azure Deployment│
+  └─────────────────┘       └─────────────────┘       └─────────────────┘
+```
+
+- 🧱 **Architectural Cleanliness**: Modular separation of concerns, DRY principles, type safety with TypeScript & Python type annotations.
+- ⚡ **Performance First**: Edge caching, async database concurrency, vector indexing, and minimal bundle overhead.
+- 🔒 **Security Mindset**: Strict Row-Level Security (RLS), JWT verification, input sanitization, and automated test suites.
 
 ---
 
+### 📬 Connect & Collaborate
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%" />
+
+Let's collaborate on impactful engineering projects, full-stack systems, or machine learning infrastructure!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20%40devraj--pal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/devraj-pal)
+[![Email](https://img.shields.io/badge/Email-connectingwithdev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connectingwithdev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow%20%40itzzdev09-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itzzdev09)
+
+<br/>
+
+<sub>Crafted with engineering precision by <b>Devraj Pal (itzzdev09)</b> • Powered by Open Source</sub>
+
 </div>
