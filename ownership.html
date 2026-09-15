@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitStats - PrismPrice</title>
+	<!-- Apply theme before CSS loads to prevent flash of unstyled content -->
+	<script>(function(){var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+	<link rel="stylesheet" href="gitstats.css" type="text/css">
+	<meta name="generator" content="GitStats 2.6.1">
+	<script type="text/javascript" src="sortable.js"></script>
+	<script type="text/javascript" src="chart.umd.min.js"></script>
+	<script>
+		function getCSSVar(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+
+		function toggleTheme() {
+			const currentTheme = document.documentElement.getAttribute('data-theme');
+			const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+			document.documentElement.setAttribute('data-theme', newTheme);
+			localStorage.setItem('theme', newTheme);
+			updateThemeIcon(newTheme);
+		}
+
+		function updateThemeIcon(theme) {
+			const button = document.getElementById('theme-toggle');
+			if (button) {
+				button.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+				button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', function() {
+			updateThemeIcon(document.documentElement.getAttribute('data-theme'));
+		});
+	</script>
+</head>
+<body>
+
+            <div class="nav">
+            <a href="index.html" class="nav-brand">GitStats</a>
+            <ul>
+            <li><a href="index.html">General</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="authors.html">Authors</a></li>
+            <li><a href="files.html">Files</a></li>
+            <li><a href="lines.html">Lines</a></li>
+            <li><a href="tags.html">Tags</a></li>
+            <li><a href="ownership.html">Code Ownership</a></li>
+            <li><a href="history.html">History</a></li>
+            
+            </ul>
+            <div class="nav-right">
+            <a href="https://github.com/shenxianpeng/gitstats" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+            <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark mode">🌙</button>
+            </div>
+            </div>
+            <h1>Code Ownership</h1><div class="ownership-summary"><p>Ownership is measured by how many commits each author made to each file. It highlights <strong>bus-factor risk</strong> (files only one person has ever touched) and where knowledge is concentrated.</p><dl><dt>Files tracked</dt><dd>93</dd><dt>Single-owner files</dt><dd>93 (100.0%)</dd><dt>Contributors</dt><dd>1</dd></dl></div>
+<h2 id="bus_factor_risk_—_single-owner_files"><a href="#bus_factor_risk_—_single-owner_files">Bus Factor Risk — Single-Owner Files</a></h2>
+
+<p><em>Files only one author has ever changed. The more a file has changed, the more knowledge is at risk if that person leaves.</em></p><table class="sortable" id="ownership-busfactor"><tr><th>File</th><th>Sole owner</th><th>Commits</th></tr><tr><td>README.md</td><td>itzzdev09</td><td>10</td></tr><tr><td>pyproject.toml</td><td>itzzdev09</td><td>8</td></tr><tr><td>docs/architecture.md</td><td>itzzdev09</td><td>6</td></tr><tr><td>src/prismprice/estimation/__init__.py</td><td>itzzdev09</td><td>5</td></tr><tr><td>src/prismprice/data/augment.py</td><td>itzzdev09</td><td>5</td></tr><tr><td>tests/test_demand.py</td><td>itzzdev09</td><td>4</td></tr><tr><td>src/prismprice/config.py</td><td>itzzdev09</td><td>4</td></tr><tr><td>src/prismprice/observability/__init__.py</td><td>itzzdev09</td><td>4</td></tr><tr><td>.github/workflows/ci.yml</td><td>itzzdev09</td><td>4</td></tr><tr><td>src/prismprice/data/synthetic.py</td><td>itzzdev09</td><td>4</td></tr><tr><td>src/prismprice/estimation/demand.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>src/prismprice/estimation/elasticity.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>tests/test_elasticity.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>src/prismprice/decision/__init__.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>src/prismprice/data/sources.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>src/prismprice/storage/store.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>tests/test_storage.py</td><td>itzzdev09</td><td>3</td></tr><tr><td>src/prismprice/decision/joint_markdown.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>.gitignore</td><td>itzzdev09</td><td>2</td></tr><tr><td>data/runs/dashboard_preview.html</td><td>itzzdev09</td><td>2</td></tr><tr><td>data/runs/preview_run.json</td><td>itzzdev09</td><td>2</td></tr><tr><td>data/runs/real_run.json</td><td>itzzdev09</td><td>2</td></tr><tr><td>src/prismprice/decision/ladder.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>src/prismprice/observability/evaluation.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>src/prismprice/pipeline.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>tests/test_decision.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>docs/metrics.md</td><td>itzzdev09</td><td>2</td></tr><tr><td>tests/test_markdown.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>src/prismprice/governance/guardrails.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>tests/test_guardrails.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>src/prismprice/features/uncensoring.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>tests/test_provenance.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>src/prismprice/compute.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>tests/test_compute.py</td><td>itzzdev09</td><td>2</td></tr><tr><td>docs/data-and-modelling.md</td><td>itzzdev09</td><td>2</td></tr><tr><td>data/runs/robust_markdown_benchmark.json</td><td>itzzdev09</td><td>1</td></tr><tr><td>docs/robust-markdown-evaluation.md</td><td>itzzdev09</td><td>1</td></tr><tr><td>scripts/evaluate_robust_markdown.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>src/prismprice/decision/robust_markdown.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>tests/test_joint_robust.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>tests/test_robust_markdown.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>data/runs/dashboard.html</td><td>itzzdev09</td><td>1</td></tr><tr><td>src/prismprice/observability/dashboard.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>tests/test_dashboard.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>tests/test_evaluation.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>src/prismprice/observability/alerts.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>tests/test_alerts.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>src/prismprice/observability/kpis.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>tests/test_kpis.py</td><td>itzzdev09</td><td>1</td></tr><tr><td>src/prismprice/observability/drift.py</td><td>itzzdev09</td><td>1</td></tr></table><p class="moreauthors">Showing top 50 of 93 single-owner files.</p>
+<h2 id="ownership_by_author"><a href="#ownership_by_author">Ownership by Author</a></h2>
+
+<p><em>Primary owner = the author with the most commits to a file. Solely owned = files only that author has touched.</em></p><table class="sortable" id="ownership-by-author"><tr><th>Author</th><th>Files owned</th><th>Solely owned</th><th>Files touched</th></tr><tr><td>itzzdev09</td><td>93</td><td>93</td><td>93</td></tr></table>
+<h2 id="most_shared_files"><a href="#most_shared_files">Most Shared Files</a></h2>
+
+<p><em>Files touched by the most people — shared code where changes are most likely to need coordination.</em></p><p>No files have more than one contributor yet.</p><div class="footer"><span class="footer-generated">Generated by <a href="https://github.com/shenxianpeng/gitstats" target="_blank" rel="noopener">gitstats</a></span></div>
+</body></html>

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "generated_by": "gitstats 2.6.1",
+  "generated_at": "2026-09-15T14:01:34+00:00",
+  "name": "PrismPrice",
+  "report_path": "index.html",
+  "first_commit": "2026-08-17 18:24:48",
+  "last_commit": "2026-09-14 05:27:47",
+  "age_days": 28,
+  "active_days": 7,
+  "total_commits": 36,
+  "total_authors": 1,
+  "active_authors_12mo": 1,
+  "commits_last_12mo": 36,
+  "total_files": 91,
+  "total_lines": 44083,
+  "lines_added": 47143,
+  "lines_removed": 3060,
+  "total_tags": 0,
+  "era": "birth",
+  "top_authors": [
+    {
+      "name": "itzzdev09",
+      "commits": 36
+    }
+  ],
+  "author_commits": {
+    "itzzdev09": 36
+  },
+  "commits_by_year": {
+    "2026": 36
+  }
+}

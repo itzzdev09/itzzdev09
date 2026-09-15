@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitStats - PrismPrice</title>
+	<!-- Apply theme before CSS loads to prevent flash of unstyled content -->
+	<script>(function(){var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+	<link rel="stylesheet" href="gitstats.css" type="text/css">
+	<meta name="generator" content="GitStats 2.6.1">
+	<script type="text/javascript" src="sortable.js"></script>
+	<script type="text/javascript" src="chart.umd.min.js"></script>
+	<script>
+		function getCSSVar(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+
+		function toggleTheme() {
+			const currentTheme = document.documentElement.getAttribute('data-theme');
+			const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+			document.documentElement.setAttribute('data-theme', newTheme);
+			localStorage.setItem('theme', newTheme);
+			updateThemeIcon(newTheme);
+		}
+
+		function updateThemeIcon(theme) {
+			const button = document.getElementById('theme-toggle');
+			if (button) {
+				button.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+				button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', function() {
+			updateThemeIcon(document.documentElement.getAttribute('data-theme'));
+		});
+	</script>
+</head>
+<body>
+
+            <div class="nav">
+            <a href="index.html" class="nav-brand">GitStats</a>
+            <ul>
+            <li><a href="index.html">General</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="authors.html">Authors</a></li>
+            <li><a href="files.html">Files</a></li>
+            <li><a href="lines.html">Lines</a></li>
+            <li><a href="tags.html">Tags</a></li>
+            <li><a href="ownership.html">Code Ownership</a></li>
+            <li><a href="history.html">History</a></li>
+            
+            </ul>
+            <div class="nav-right">
+            <a href="https://github.com/shenxianpeng/gitstats" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+            <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark mode">🌙</button>
+            </div>
+            </div>
+            <h1>Authors</h1>
+<h2 id="list_of_authors"><a href="#list_of_authors">List of Authors</a></h2>
+
+<table class="authors sortable" id="authors"><tr><th>Author</th><th>Commits (%)</th><th>+ lines</th><th>- lines</th><th>First commit</th><th>Last commit</th><th class="unsortable">Age</th><th>Active days</th><th># by commits</th></tr><tr><td>itzzdev09</td><td>36 (100.00%)</td><td>47143</td><td>3060</td><td>2026-08-17</td><td>2026-09-14</td><td>27 days, 11:02:59</td><td>7</td><td>1</td></tr></table>
+<h2 id="cumulated_added_lines_of_code_per_author"><a href="#cumulated_added_lines_of_code_per_author">Cumulated Added Lines of Code per Author</a></h2>
+
+<div style="max-width:100%;margin-bottom:8px"><canvas id="chart-loc-by-author"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-loc-by-author').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ["2026-08-17", "2026-08-17", "2026-08-17", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-09-12", "2026-09-13", "2026-09-14"],
+      datasets: [{"label": "itzzdev09", "data": [3864, 7147, 7950, 9519, 10936, 11958, 11960, 12106, 12257, 12265, 12304, 13342, 14548, 15171, 15183, 15690, 16092, 16438, 16474, 16522, 17183, 17185, 17226, 17939, 17956, 18527, 19167, 19693, 19696, 20717, 35416, 37857, 46813, 46954, 47143], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color'), "borderWidth": 1, "pointRadius": 2}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Lines' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+
+<h2 id="commits_per_author"><a href="#commits_per_author">Commits per Author</a></h2>
+
+<div style="max-width:100%;margin-bottom:8px"><canvas id="chart-commits-by-author"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-commits-by-author').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ["2026-08-17", "2026-08-17", "2026-08-17", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-09-12", "2026-09-13", "2026-09-14"],
+      datasets: [{"label": "itzzdev09", "data": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color'), "borderWidth": 1, "pointRadius": 2}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+
+<h2 id="author_of_month"><a href="#author_of_month">Author of Month</a></h2>
+
+<table class="sortable" id="aom"><tr><th>Month</th><th>Author</th><th>Commits (%)</th><th class="unsortable">Next top 5</th><th>Number of authors</th></tr><tr><td>2026-09</td><td>itzzdev09</td><td>3 (100.00% of 3)</td><td></td><td>1</td></tr><tr><td>2026-08</td><td>itzzdev09</td><td>33 (100.00% of 33)</td><td></td><td>1</td></tr></table>
+<h2 id="author_of_year"><a href="#author_of_year">Author of Year</a></h2>
+
+<table class="sortable" id="aoy"><tr><th>Year</th><th>Author</th><th>Commits (%)</th><th class="unsortable">Next top 5</th><th>Number of authors</th></tr><tr><td>2026</td><td>itzzdev09</td><td>36 (100.00% of 36)</td><td></td><td>1</td></tr></table>
+<h2 id="commits_by_domains"><a href="#commits_by_domains">Commits by Domains</a></h2>
+
+<div style="display:flex;gap:24px;align-items:flex-start"><table><tr><th>Domains</th><th>Total (%)</th></tr><tr><th>gmail.com</th><td>36 (100.00%)</td></tr></table><div style="flex:1;min-width:0"><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-domains"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-domains').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["gmail.com"],
+      datasets: [{"label": "Commits", "data": [36], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+</div></div>
+<h2 id="contributor_growth"><a href="#contributor_growth">Contributor Growth</a></h2>
+
+<p><em>Number of first-time contributors per month. A growing trend indicates a healthy, welcoming project.</em></p><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-contributor-growth"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-contributor-growth').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["2026-08"],
+      datasets: [{"label": "New contributors", "data": [1], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 4,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'New contributors' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+<div class="footer"><span class="footer-generated">Generated by <a href="https://github.com/shenxianpeng/gitstats" target="_blank" rel="noopener">gitstats</a></span></div>
+</body></html>
