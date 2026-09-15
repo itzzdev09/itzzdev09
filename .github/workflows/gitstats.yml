@@ -1,0 +1,28 @@
+name: GitStats report
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gitstats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check out PrismPrice
+        uses: actions/checkout@v7
+        with:
+          repository: itzzdev09/PrismPrice
+          path: prismprice
+          fetch-depth: 0
+
+      - uses: shenxianpeng/gitstats-action@v1
+        with:
+          path: prismprice
+          deploy-to-pages: true
+          config: project_name=PrismPrice|badge_style=flat-square|badge_color=#3776AB
