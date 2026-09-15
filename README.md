@@ -1,64 +1,134 @@
 <div align="center">
 
-# Devraj Pal
+```
+ ██████╗ ███████╗██╗   ██╗██████╗  █████╗      ██╗
+ ██╔══██╗██╔════╝██║   ██║██╔══██╗██╔══██╗     ██║
+ ██║  ██║█████╗  ██║   ██║██████╔╝███████║     ██║
+ ██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══██╗██╔══██║██   ██║
+ ██████╔╝███████╗ ╚████╔╝ ██║  ██║██║  ██║╚█████╔╝
+ ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝
+```
 
-**Python Developer · Machine Learning & Data Systems · Open-Source Contributor**
+**Python Developer · ML & Data Systems · Open-Source Contributor**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devraj--pal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/devraj-pal)
 [![Email](https://img.shields.io/badge/Email-connectingwithdev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:connectingwithdev@gmail.com)
-[![Profile views](https://komarev.com/ghpvc/?username=itzzdev09&style=flat-square&color=3776AB)](https://github.com/itzzdev09)
+[![Merged PRs](https://img.shields.io/badge/merged_OSS_PRs-19-3776AB?style=flat-square&logo=git&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09)
+[![Profile views](https://komarev.com/ghpvc/?username=itzzdev09&style=flat-square&color=3776AB&label=views)](https://github.com/itzzdev09)
 
 </div>
 
-I build with Python: machine learning pipelines, data-heavy backends and the tooling around them. Lately most of my time goes into fixing bugs in open-source Python libraries I use.
+```python
+>>> import devraj
+>>> devraj.whoami()
+{
+    "name":      "Devraj Pal",
+    "location":  "Hyderabad, India",
+    "main":      "Python 🐍",
+    "builds":    ["ML pipelines", "pricing & forecasting systems", "data-heavy backends"],
+    "hobby":     "reading other people's code until I find the bug",
+    "stack":     ["pandas", "scikit-learn", "PyTorch", "FastAPI", "Kafka", "Redis"],
+}
+>>> devraj.currently()
+'shipping PrismPrice and sending fixes upstream'
+```
 
-- 🐍 Python first — pandas, scikit-learn, PyTorch, FastAPI, Flask, Django
-- 📈 Currently working on pricing and forecasting systems (PrismPrice, dynamic pricing pipeline)
-- 🔧 Contributing fixes to the Python ecosystem (see below)
-- 📍 Hyderabad, India
+## `$ git log --author=itzzdev09 --merged -- open-source/`
 
-## Open source
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Merged contributions to projects I rely on:
+### 📂 [fsspec/filesystem_spec](https://github.com/fsspec/filesystem_spec)
+[![stars](https://img.shields.io/github/stars/fsspec/filesystem_spec?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/fsspec/filesystem_spec) ![merged](https://img.shields.io/badge/merged-8-2ea44f?style=flat-square)
 
-| Project | What I fixed |
-|---|---|
-| [fsspec/filesystem_spec](https://github.com/fsspec/filesystem_spec/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged) | Missing-path errors for memory, ZIP, TAR and archive filesystems, `DirFileSystem` delegation, Windows drive paths, reference and tar `cat_file` offsets |
-| [more-itertools](https://github.com/more-itertools/more-itertools/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged) | `one()` / `only()` ignoring a falsy user-supplied exception |
-| [litestar](https://github.com/litestar-org/litestar/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged) | Redis pub/sub shutdown using the deprecated `reset()` |
-| [cognee](https://github.com/topoteretes/cognee/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged) | `X-Api-Key` authentication in the MCP server's API mode |
-| [roboflow/trackers](https://github.com/roboflow/trackers/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged) | Shared scale-aware noise handling between BoT-SORT and McByte |
-| [gitstats](https://github.com/shenxianpeng/gitstats/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged) | Python 3.15 in CI |
+The filesystem layer under pandas, dask, xarray and zarr.<br>
+`FileNotFoundError` for memory/ZIP/TAR/archive paths · `DirFileSystem` delegation · Windows drive-path parsing · `cat_file` offsets
 
-[All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09)
+</td>
+<td width="50%" valign="top">
 
-## Projects
+### 🧠 [topoteretes/cognee](https://github.com/topoteretes/cognee)
+[![stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/topoteretes/cognee) ![merged](https://img.shields.io/badge/merged-1-2ea44f?style=flat-square)
+
+Open-source AI memory platform for agents.<br>
+`X-Api-Key` authentication for the MCP server in API mode
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⭐ [litestar-org/litestar](https://github.com/litestar-org/litestar)
+[![stars](https://img.shields.io/github/stars/litestar-org/litestar?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/litestar-org/litestar) ![merged](https://img.shields.io/badge/merged-1-2ea44f?style=flat-square)
+
+Fast, extensible Python ASGI web framework.<br>
+Redis pub/sub channels shutdown: `aclose()` instead of deprecated `reset()`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔁 [more-itertools](https://github.com/more-itertools/more-itertools)
+[![stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/more-itertools/more-itertools) ![merged](https://img.shields.io/badge/merged-1-2ea44f?style=flat-square)
+
+More routines for iterables, beyond `itertools`.<br>
+`one()` / `only()` no longer drop a falsy custom exception
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 [roboflow/trackers](https://github.com/roboflow/trackers)
+[![stars](https://img.shields.io/github/stars/roboflow/trackers?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/roboflow/trackers) ![merged](https://img.shields.io/badge/merged-1-2ea44f?style=flat-square)
+
+Multi-object tracking algorithms for computer vision.<br>
+Shared scale-aware noise handling between BoT-SORT and McByte
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [shenxianpeng/gitstats](https://github.com/shenxianpeng/gitstats)
+[![stars](https://img.shields.io/github/stars/shenxianpeng/gitstats?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/shenxianpeng/gitstats) ![merged](https://img.shields.io/badge/merged-1-2ea44f?style=flat-square)
+
+Visual statistics reports from Git history.<br>
+Python 3.15 in the CI matrix
+
+</td>
+</tr>
+</table>
+
+<sub>🔍 [every merged PR →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09)</sub>
+
+## `$ ls ~/projects --sort=python`
 
 | | |
 |---|---|
-| **[PrismPrice](https://github.com/itzzdev09/PrismPrice)**<br>Dynamic pricing decision support: demand elasticity, customer retention and causal revenue optimization.<br>`Python` `scikit-learn` `pandas` | **[XAI-PyTorch-IDS](https://github.com/itzzdev09/XAI-PyTorch-IDS)**<br>Explainable multi-class network intrusion detection, with SHAP feature importance on imbalanced data.<br>`PyTorch` `CatBoost` `SHAP` |
-| **[dynamic-pricing-pipeline](https://github.com/itzzdev09/dynamic-pricing-pipeline)**<br>Real-time pricing pipeline with streaming ingestion and reinforcement learning.<br>`Python` `Kafka` `Redis` | **[delhi-rent-forecasting](https://github.com/itzzdev09/delhi-rent-forecasting)**<br>Forecasting Delhi rental prices with classical ML and LSTM models.<br>`Python` `LSTM` `scikit-learn` |
-| **[PrepArsenal](https://github.com/itzzdev09/PrepArsenal)**<br>AI-powered exam prep with previous-year-question analysis and adaptive practice.<br>`Python` `TypeScript` `Supabase` | **[price-tracker](https://github.com/itzzdev09/price-tracker)**<br>E-commerce price monitoring scraper with email alerts.<br>`Python` `web scraping` |
+| **📈 [PrismPrice](https://github.com/itzzdev09/PrismPrice)**<br>Dynamic pricing decision support: demand elasticity, retention and causal revenue optimization.<br>`python` `scikit-learn` `pandas` | **🛡️ [XAI-PyTorch-IDS](https://github.com/itzzdev09/XAI-PyTorch-IDS)**<br>Explainable multi-class network intrusion detection with SHAP on imbalanced data.<br>`pytorch` `catboost` `shap` |
+| **⚡ [dynamic-pricing-pipeline](https://github.com/itzzdev09/dynamic-pricing-pipeline)**<br>Real-time pricing pipeline with streaming ingestion and reinforcement learning.<br>`python` `kafka` `redis` | **🏠 [delhi-rent-forecasting](https://github.com/itzzdev09/delhi-rent-forecasting)**<br>Delhi rental price forecasting with classical ML and LSTM models.<br>`python` `lstm` `scikit-learn` |
+| **🎓 [PrepArsenal](https://github.com/itzzdev09/PrepArsenal)**<br>AI-powered exam prep with previous-year-question analysis and adaptive practice.<br>`python` `typescript` `supabase` | **🏷️ [price-tracker](https://github.com/itzzdev09/price-tracker)**<br>E-commerce price monitoring scraper with email alerts.<br>`python` `scraping` |
 
-## Tech
+## `$ pip list --user`
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,django&perline=7" alt="Python and ML" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,docker,kubernetes,azure,linux&perline=7" alt="Data and infrastructure" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,git&perline=4" alt="Web and tools" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,django&perline=7" alt="Python and ML" /><br>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,docker,kubernetes,azure,linux&perline=7" alt="Data and infrastructure" /><br>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,git,vim&perline=5" alt="Web and tools" />
 </p>
 
-## PrismPrice at a glance
-
-Weekly repository statistics generated with [gitstats](https://github.com/shenxianpeng/gitstats):
+## `$ gitstats ~/projects/PrismPrice`
 
 [![Commits](https://itzzdev09.github.io/itzzdev09/badges/commits.svg)](https://itzzdev09.github.io/itzzdev09/)
 [![Last commit](https://itzzdev09.github.io/itzzdev09/badges/last-commit.svg)](https://itzzdev09.github.io/itzzdev09/)
 [![Lines](https://itzzdev09.github.io/itzzdev09/badges/lines.svg)](https://itzzdev09.github.io/itzzdev09/)
 [![Files](https://itzzdev09.github.io/itzzdev09/badges/files.svg)](https://itzzdev09.github.io/itzzdev09/)
 
-[Full report →](https://itzzdev09.github.io/itzzdev09/)
+<sub>Regenerated every Monday with <a href="https://github.com/shenxianpeng/gitstats">gitstats</a> · <a href="https://itzzdev09.github.io/itzzdev09/">full report →</a></sub>
+
+<div align="center">
+
+```
+>>> exit()  # thanks for stopping by 👋
+```
+
+</div>
