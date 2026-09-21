@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitStats - PrismPrice</title>
+	<!-- Apply theme before CSS loads to prevent flash of unstyled content -->
+	<script>(function(){var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+	<link rel="stylesheet" href="gitstats.css" type="text/css">
+	<meta name="generator" content="GitStats 2.6.2">
+	<script type="text/javascript" src="sortable.js"></script>
+	<script type="text/javascript" src="chart.umd.min.js"></script>
+	<script>
+		function getCSSVar(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+
+		function toggleTheme() {
+			const currentTheme = document.documentElement.getAttribute('data-theme');
+			const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+			document.documentElement.setAttribute('data-theme', newTheme);
+			localStorage.setItem('theme', newTheme);
+			updateThemeIcon(newTheme);
+		}
+
+		function updateThemeIcon(theme) {
+			const button = document.getElementById('theme-toggle');
+			if (button) {
+				button.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+				button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', function() {
+			updateThemeIcon(document.documentElement.getAttribute('data-theme'));
+		});
+	</script>
+</head>
+<body>
+
+            <div class="nav">
+            <a href="index.html" class="nav-brand">GitStats</a>
+            <ul>
+            <li><a href="index.html">General</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="authors.html">Authors</a></li>
+            <li><a href="files.html">Files</a></li>
+            <li><a href="lines.html">Lines</a></li>
+            <li><a href="tags.html">Tags</a></li>
+            <li><a href="ownership.html">Code Ownership</a></li>
+            <li><a href="history.html">History</a></li>
+            
+            </ul>
+            <div class="nav-right">
+            <a href="https://github.com/shenxianpeng/gitstats" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+            <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark mode">🌙</button>
+            </div>
+            </div>
+            <h1>Activity</h1><p><strong>Longest Streak:</strong> 3 consecutive active days. A long streak indicates sustained development momentum.</p>
+<h2 id="yearly_activity"><a href="#yearly_activity">Yearly activity</a></h2>
+
+<p>Last 5 years</p><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-yearly-activity"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-yearly-activity').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["2022", "2023", "2024", "2025", "2026"],
+      datasets: [{"label": "Commits", "data": [0, 0, 0, 0, 36], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 4,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 0 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+
+<h2 id="weekly_activity"><a href="#weekly_activity">Weekly activity</a></h2>
+
+<p>Last 32 weeks</p><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-weekly-activity"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-weekly-activity').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["2026-07", "2026-08", "2026-09", "2026-10", "2026-11", "2026-12", "2026-13", "2026-14", "2026-15", "2026-16", "2026-17", "2026-18", "2026-19", "2026-20", "2026-21", "2026-22", "2026-23", "2026-24", "2026-25", "2026-26", "2026-27", "2026-28", "2026-29", "2026-30", "2026-31", "2026-32", "2026-33", "2026-34", "2026-35", "2026-36", "2026-37", "2026-38"],
+      datasets: [{"label": "Commits", "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 2, 1, 0], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 5,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+
+<h2 id="hour_of_day"><a href="#hour_of_day">Hour of Day</a></h2>
+
+<table><tr><th>Hour</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th><th>21</th><th>22</th><th>23</th></tr>
+<tr><th>Commits</th><td class="heat heat0">0</td><td class="heat heat0">0</td><td class="heat heat0">0</td><td class="heat heat1">1</td><td class="heat heat4">5</td><td class="heat heat1">1</td><td class="heat heat0">0</td><td class="heat heat1">1</td><td class="heat heat1">1</td><td class="heat heat0">0</td><td class="heat heat0">0</td><td class="heat heat0">0</td><td class="heat heat2">2</td><td class="heat heat2">2</td><td class="heat heat2">2</td><td class="heat heat0">0</td><td class="heat heat0">0</td><td class="heat heat4">5</td><td class="heat heat4">6</td><td class="heat heat0">0</td><td class="heat heat3">4</td><td class="heat heat0">0</td><td class="heat heat4">5</td><td class="heat heat1">1</td></tr>
+<tr><th>%</th><td class="heat heat0">0.00</td><td class="heat heat0">0.00</td><td class="heat heat0">0.00</td><td class="heat heat1">2.78</td><td class="heat heat4">13.89</td><td class="heat heat1">2.78</td><td class="heat heat0">0.00</td><td class="heat heat1">2.78</td><td class="heat heat1">2.78</td><td class="heat heat0">0.00</td><td class="heat heat0">0.00</td><td class="heat heat0">0.00</td><td class="heat heat2">5.56</td><td class="heat heat2">5.56</td><td class="heat heat2">5.56</td><td class="heat heat0">0.00</td><td class="heat heat0">0.00</td><td class="heat heat4">13.89</td><td class="heat heat4">16.67</td><td class="heat heat0">0.00</td><td class="heat heat3">11.11</td><td class="heat heat0">0.00</td><td class="heat heat4">13.89</td><td class="heat heat1">2.78</td></tr></table><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-hour-of-day"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-hour-of-day').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      datasets: [{"label": "Commits", "data": [0, 0, 0, 1, 5, 1, 0, 1, 1, 0, 0, 0, 2, 2, 2, 0, 0, 5, 6, 0, 4, 0, 5, 1], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 0 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+
+<h2 id="day_of_week"><a href="#day_of_week">Day of Week</a></h2>
+
+<div style="display:flex;gap:24px;align-items:flex-start"><table><tr><th>Day</th><th>Total (%)</th></tr><tr><th>Mon</th><td>4 (11.11%)</td></tr><tr><th>Tue</th><td>12 (33.33%)</td></tr><tr><th>Wed</th><td>5 (13.89%)</td></tr><tr><th>Thu</th><td>0</td></tr><tr><th>Fri</th><td>13 (36.11%)</td></tr><tr><th>Sat</th><td>1 (2.78%)</td></tr><tr><th>Sun</th><td>1 (2.78%)</td></tr></table><div style="flex:1;min-width:0"><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-day-of-week"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-day-of-week').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      datasets: [{"label": "Commits", "data": [4, 12, 5, 0, 13, 1, 1], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 4,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 0 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }, datasets: { bar: { maxBarThickness: 40 } }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+</div></div>
+<h2 id="hour_of_week"><a href="#hour_of_week">Hour of Week</a></h2>
+
+<table><tr><th>Weekday</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th><th>21</th><th>22</th><th>23</th></tr><tr><th>Mon</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat1">1</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat1">1</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat2">2</td><td class="heat heat0"></td></tr><tr><th>Tue</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat1">1</td><td class="heat heat1">1</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat2">2</td><td class="heat heat2">2</td><td class="heat heat2">2</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat4">4</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td></tr><tr><th>Wed</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat4">5</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td></tr><tr><th>Thu</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td></tr><tr><th>Fri</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat4">4</td><td class="heat heat4">5</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat3">3</td><td class="heat heat1">1</td></tr><tr><th>Sat</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat1">1</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td></tr><tr><th>Sun</th><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat1">1</td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td><td class="heat heat0"></td></tr></table>
+<h2 id="month_of_year"><a href="#month_of_year">Month of Year</a></h2>
+
+<div style="display:flex;gap:24px;align-items:flex-start"><table><tr><th>Month</th><th>Commits (%)</th></tr><tr><td>1</td><td>0 (0.00 %)</td></tr><tr><td>2</td><td>0 (0.00 %)</td></tr><tr><td>3</td><td>0 (0.00 %)</td></tr><tr><td>4</td><td>0 (0.00 %)</td></tr><tr><td>5</td><td>0 (0.00 %)</td></tr><tr><td>6</td><td>0 (0.00 %)</td></tr><tr><td>7</td><td>0 (0.00 %)</td></tr><tr><td>8</td><td>33 (91.67 %)</td></tr><tr><td>9</td><td>3 (8.33 %)</td></tr><tr><td>10</td><td>0 (0.00 %)</td></tr><tr><td>11</td><td>0 (0.00 %)</td></tr><tr><td>12</td><td>0 (0.00 %)</td></tr></table><div style="flex:1;min-width:0"><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-month-of-year"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-month-of-year').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      datasets: [{"label": "Commits", "data": [0, 0, 0, 0, 0, 0, 0, 33, 3, 0, 0, 0], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 4,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 0 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }, datasets: { bar: { maxBarThickness: 40 } }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+</div></div>
+<h2 id="commits_by_year/month"><a href="#commits_by_year/month">Commits by year/month</a></h2>
+
+<div style="display:flex;gap:24px;align-items:flex-start"><table><tr><th>Month</th><th>Commits</th><th>Lines added</th><th>Lines removed</th></tr><tr><td>2026-09</td><td>3</td><td>9286</td><td>19</td></tr><tr><td>2026-08</td><td>33</td><td>37857</td><td>3041</td></tr></table><div style="flex:1;min-width:0"><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-commits-by-year-month"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-commits-by-year-month').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["2026-08", "2026-09"],
+      datasets: [{"label": "Commits", "data": [33, 3], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+</div></div>
+<h2 id="commits_by_year"><a href="#commits_by_year">Commits by Year</a></h2>
+
+<div style="display:flex;gap:24px;align-items:flex-start"><table><tr><th>Year</th><th>Commits (% of all)</th><th>Lines added</th><th>Lines removed</th></tr><tr><td>2026</td><td>36 (100.00%)</td><td>47143</td><td>3060</td></tr></table><div style="flex:1;min-width:0"><div style="max-width:100%;margin-bottom:8px"><canvas id="chart-commits-by-year"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-commits-by-year').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: [2026],
+      datasets: [{"label": "Commits", "data": [36], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color')}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 0 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Commits' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+</div></div>
+<h2 id="commits_by_timezone"><a href="#commits_by_timezone">Commits by Timezone</a></h2>
+
+<table class="heat"><tr><th>+0530</th></tr>
+<tr><td class="heat heat heat4">36</td></tr></table><div class="footer"><span class="footer-generated">Generated by <a href="https://github.com/shenxianpeng/gitstats" target="_blank" rel="noopener">gitstats</a></span></div>
+</body></html>

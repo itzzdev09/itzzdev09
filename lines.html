@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitStats - PrismPrice</title>
+	<!-- Apply theme before CSS loads to prevent flash of unstyled content -->
+	<script>(function(){var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+	<link rel="stylesheet" href="gitstats.css" type="text/css">
+	<meta name="generator" content="GitStats 2.6.2">
+	<script type="text/javascript" src="sortable.js"></script>
+	<script type="text/javascript" src="chart.umd.min.js"></script>
+	<script>
+		function getCSSVar(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+
+		function toggleTheme() {
+			const currentTheme = document.documentElement.getAttribute('data-theme');
+			const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+			document.documentElement.setAttribute('data-theme', newTheme);
+			localStorage.setItem('theme', newTheme);
+			updateThemeIcon(newTheme);
+		}
+
+		function updateThemeIcon(theme) {
+			const button = document.getElementById('theme-toggle');
+			if (button) {
+				button.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+				button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', function() {
+			updateThemeIcon(document.documentElement.getAttribute('data-theme'));
+		});
+	</script>
+</head>
+<body>
+
+            <div class="nav">
+            <a href="index.html" class="nav-brand">GitStats</a>
+            <ul>
+            <li><a href="index.html">General</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="authors.html">Authors</a></li>
+            <li><a href="files.html">Files</a></li>
+            <li><a href="lines.html">Lines</a></li>
+            <li><a href="tags.html">Tags</a></li>
+            <li><a href="ownership.html">Code Ownership</a></li>
+            <li><a href="history.html">History</a></li>
+            
+            </ul>
+            <div class="nav-right">
+            <a href="https://github.com/shenxianpeng/gitstats" class="nav-github" target="_blank" rel="noopener" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+            <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark mode">🌙</button>
+            </div>
+            </div>
+            <h1>Lines</h1><dl>
+<dt>Total lines</dt><dd>44083</dd></dl>
+
+<h2 id="lines_of_code"><a href="#lines_of_code">Lines of Code</a></h2>
+
+<div style="max-width:100%;margin-bottom:8px"><canvas id="chart-lines-of-code"></canvas></div>
+<script>
+(function() {
+  var ctx = document.getElementById('chart-lines-of-code').getContext('2d');
+  var chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ["2026-08-17", "2026-08-17", "2026-08-17", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-18", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-19", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-08-21", "2026-09-12", "2026-09-13", "2026-09-14"],
+      datasets: [{"label": "Lines", "data": [3864, 7114, 7907, 9373, 10780, 11788, 11790, 11924, 12000, 12006, 12044, 13082, 14288, 14903, 14907, 15414, 15816, 16162, 16195, 16240, 16901, 16901, 16941, 17654, 17665, 18236, 18876, 19402, 19402, 20423, 35121, 34816, 43757, 43894, 44083], "backgroundColor": getCSSVar('--bar-color'), "borderColor": getCSSVar('--bar-color'), "borderWidth": 1, "pointRadius": 2}]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 3,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { maxRotation: 45, minRotation: 45 } },
+        y: { beginAtZero: true, title: { display: true, text: 'Lines' } }
+      }
+    }
+  });
+  document.addEventListener('themechange', function() { chart.update(); });
+})();
+</script>
+<div class="footer"><span class="footer-generated">Generated by <a href="https://github.com/shenxianpeng/gitstats" target="_blank" rel="noopener">gitstats</a></span></div>
+</body></html>
