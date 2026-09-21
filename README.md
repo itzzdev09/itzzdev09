@@ -69,6 +69,17 @@ Python 3.15 in the CI matrix
 </td>
 <td width="50%" valign="top">
 
+### 🛒 [medusajs/medusa](https://github.com/medusajs/medusa)
+[![stars](https://img.shields.io/github/stars/medusajs/medusa?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/medusajs/medusa) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Amedusajs%2Fmedusa&label=merged&style=flat-square&color=2ea44f)](https://github.com/medusajs/medusa/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
+
+Open-source commerce platform for developers.<br>
+`medusa build` no longer fails on lint errors: `failOnError: false` for the lint step
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🧠 [topoteretes/cognee](https://github.com/topoteretes/cognee)
 [![stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/topoteretes/cognee) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Atopoteretes%2Fcognee&label=merged&style=flat-square&color=2ea44f)](https://github.com/topoteretes/cognee/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 
@@ -76,8 +87,6 @@ Open-source AI memory platform for agents.<br>
 `X-Api-Key` authentication for the MCP server in API mode
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ⭐ [litestar-org/litestar](https://github.com/litestar-org/litestar)
@@ -87,6 +96,8 @@ Fast, extensible Python ASGI web framework.<br>
 Redis pub/sub channels shutdown: `aclose()` instead of deprecated `reset()`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🔁 [more-itertools](https://github.com/more-itertools/more-itertools)
@@ -96,8 +107,6 @@ More routines for iterables, beyond `itertools`.<br>
 `one()` / `only()` no longer drop a falsy custom exception
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎯 [roboflow/trackers](https://github.com/roboflow/trackers)
@@ -105,9 +114,6 @@ More routines for iterables, beyond `itertools`.<br>
 
 Multi-object tracking algorithms for computer vision.<br>
 Shared scale-aware noise handling between BoT-SORT and McByte
-
-</td>
-<td width="50%" valign="top">
 
 </td>
 </tr>
