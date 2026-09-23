@@ -13,7 +13,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devraj--pal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/devraj-pal)
 [![Email](https://img.shields.io/badge/Email-connectingwithdev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:connectingwithdev@gmail.com)
-[![Merged PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20-user%3Aitzzdev09&label=merged%20OSS%20PRs&style=flat-square&color=3776AB&logo=git&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09)
+[![Merged PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20-user%3Aitzzdev09%20-user%3Aadityx%20-user%3ACalmNerd&label=merged%20OSS%20PRs&style=flat-square&color=3776AB&logo=git&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09+-user%3Aadityx+-user%3ACalmNerd)
 [![Total merged PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged&label=total%20merged%20PRs&style=flat-square&color=2ea44f&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 [![Profile views](https://komarev.com/ghpvc/?username=itzzdev09&style=flat-square&color=3776AB&label=views)](https://github.com/itzzdev09)
 
@@ -130,7 +130,7 @@ Shared scale-aware noise handling between BoT-SORT and McByte
 </tr>
 </table>
 
-<sub>🔍 [every merged PR →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09)</sub>
+<sub>🔍 [every merged PR →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09+-user%3Aadityx+-user%3ACalmNerd)</sub>
 
 ## `$ ls ~/projects --sort=python`
 
