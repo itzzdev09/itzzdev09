@@ -60,6 +60,26 @@ Annotated tags and per-tag commit counts · HTML/SVG escaping of repo names · c
 <tr>
 <td width="50%" valign="top">
 
+### 🧹 [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff)
+[![stars](https://img.shields.io/github/stars/sqlfluff/sqlfluff?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/sqlfluff/sqlfluff) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Asqlfluff%2Fsqlfluff&label=merged&style=flat-square&color=2ea44f)](https://github.com/sqlfluff/sqlfluff/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
+
+Dialect-flexible SQL linter and auto-formatter.<br>
+Oracle `FETCH ... PERCENT` · Postgres `COPY` options from PostgreSQL 15–18
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 [mvt-project/mvt](https://github.com/mvt-project/mvt)
+[![stars](https://img.shields.io/github/stars/mvt-project/mvt?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/mvt-project/mvt) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Amvt-project%2Fmvt&label=merged&style=flat-square&color=2ea44f)](https://github.com/mvt-project/mvt/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
+
+Amnesty International's mobile forensics toolkit for spyware.<br>
+Indicator matching on whole path components · `www.` prefix stripping · dumpsys parsers that survive truncated bug reports
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 📐 [PythonOT/POT](https://github.com/PythonOT/POT)
 [![stars](https://img.shields.io/github/stars/PythonOT/POT?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/PythonOT/POT) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3APythonOT%2FPOT&label=merged&style=flat-square&color=2ea44f)](https://github.com/PythonOT/POT/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 
@@ -69,66 +89,36 @@ UCOOT entropic regularisation called `div_to_product` with swapped arguments
 </td>
 <td width="50%" valign="top">
 
-### 🧹 [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff)
-[![stars](https://img.shields.io/github/stars/sqlfluff/sqlfluff?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/sqlfluff/sqlfluff) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Asqlfluff%2Fsqlfluff&label=merged&style=flat-square&color=2ea44f)](https://github.com/sqlfluff/sqlfluff/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
+### 👁️ [pymovements/pymovements](https://github.com/pymovements/pymovements)
+[![stars](https://img.shields.io/github/stars/pymovements/pymovements?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/pymovements/pymovements) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Apymovements%2Fpymovements&label=merged&style=flat-square&color=2ea44f)](https://github.com/pymovements/pymovements/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 
-Dialect-flexible SQL linter and auto-formatter.<br>
-Oracle `FETCH ... PERCENT` · Postgres `COPY` options from PostgreSQL 15–18
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛒 [medusajs/medusa](https://github.com/medusajs/medusa)
-[![stars](https://img.shields.io/github/stars/medusajs/medusa?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/medusajs/medusa) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Amedusajs%2Fmedusa&label=merged&style=flat-square&color=2ea44f)](https://github.com/medusajs/medusa/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Open-source commerce platform for developers.<br>
-`medusa build` no longer fails on lint errors: `failOnError: false` for the lint step
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 [topoteretes/cognee](https://github.com/topoteretes/cognee)
-[![stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/topoteretes/cognee) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Atopoteretes%2Fcognee&label=merged&style=flat-square&color=2ea44f)](https://github.com/topoteretes/cognee/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Open-source AI memory platform for agents.<br>
-`X-Api-Key` authentication for the MCP server in API mode
+Eye-tracking data processing and analysis.<br>
+Categorical and Enum dtypes in BIDS export · `tsplot` broken at temporal gaps · `plotting.screen()` canvas
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⭐ [litestar-org/litestar](https://github.com/litestar-org/litestar)
-[![stars](https://img.shields.io/github/stars/litestar-org/litestar?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/litestar-org/litestar) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Alitestar-org%2Flitestar&label=merged&style=flat-square&color=2ea44f)](https://github.com/litestar-org/litestar/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
+### ✂️ [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip)
+[![stars](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/zhouxiaoka/autoclip) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Azhouxiaoka%2Fautoclip&label=merged&style=flat-square&color=2ea44f)](https://github.com/zhouxiaoka/autoclip/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 
-Fast, extensible Python ASGI web framework.<br>
-Redis pub/sub channels shutdown: `aclose()` instead of deprecated `reset()`
+AI-powered video clipping and highlight generation.<br>
+Subtitle retries no longer re-download the video · millisecond carry in SRT timestamps
 
 </td>
 <td width="50%" valign="top">
 
-### 🔁 [more-itertools](https://github.com/more-itertools/more-itertools)
-[![stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/more-itertools/more-itertools) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Amore-itertools%2Fmore-itertools&label=merged&style=flat-square&color=2ea44f)](https://github.com/more-itertools/more-itertools/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
+### 🦬 [Farama-Foundation/PettingZoo](https://github.com/Farama-Foundation/PettingZoo)
+[![stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/Farama-Foundation/PettingZoo) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3AFarama-Foundation%2FPettingZoo&label=merged&style=flat-square&color=2ea44f)](https://github.com/Farama-Foundation/PettingZoo/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 
-More routines for iterables, beyond `itertools`.<br>
-`one()` / `only()` no longer drop a falsy custom exception
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🎯 [roboflow/trackers](https://github.com/roboflow/trackers)
-[![stars](https://img.shields.io/github/stars/roboflow/trackers?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/roboflow/trackers) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Aroboflow%2Ftrackers&label=merged&style=flat-square&color=2ea44f)](https://github.com/roboflow/trackers/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Multi-object tracking algorithms for computer vision.<br>
-Shared scale-aware noise handling between BoT-SORT and McByte
+Multi-agent reinforcement learning environments.<br>
+`PadActionSpace` and `NanZeros` wrappers, AEC and parallel
 
 </td>
 </tr>
 </table>
+
 
 <sub>🔍 [every merged PR →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09+-user%3Aaxitya-sharmx+-user%3ACalmNerd+-user%3ASuvradip01)</sub>
 
