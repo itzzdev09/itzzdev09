@@ -1,5 +1,11 @@
 <div align="center">
 
+<h3><code>devraj@github:~$ whoami</code></h3>
+
+<img src="./assets/devraj-ascii.svg" width="720" alt="Animated ASCII portrait of Devraj Pal" />
+
+<br>
+
 ```
  ██████╗ ███████╗██╗   ██╗██████╗  █████╗      ██╗
  ██╔══██╗██╔════╝██║   ██║██╔══██╗██╔══██╗     ██║
