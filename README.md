@@ -1,21 +1,10 @@
 <div align="center">
 
-<h3><code>devraj@github:~$ whoami</code></h3>
+<h1>Devraj Pal</h1>
 
-<img src="./assets/devraj-ascii.svg" width="720" alt="Animated ASCII portrait of Devraj Pal" />
+<p><strong>Python Developer · ML &amp; Data Systems · Open-Source Contributor</strong></p>
 
-<br>
-
-```
- ██████╗ ███████╗██╗   ██╗██████╗  █████╗      ██╗
- ██╔══██╗██╔════╝██║   ██║██╔══██╗██╔══██╗     ██║
- ██║  ██║█████╗  ██║   ██║██████╔╝███████║     ██║
- ██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══██╗██╔══██║██   ██║
- ██████╔╝███████╗ ╚████╔╝ ██║  ██║██║  ██║╚█████╔╝
- ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝
-```
-
-**Python Developer · ML & Data Systems · Open-Source Contributor**
+<p>Building ML pipelines, pricing and forecasting systems, and data-heavy backends.</p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devraj--pal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/devraj-pal)
 [![Email](https://img.shields.io/badge/Email-connectingwithdev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:connectingwithdev@gmail.com)
