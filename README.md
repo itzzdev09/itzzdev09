@@ -1,151 +1,85 @@
 <div align="center">
 
-<h1>Devraj Pal</h1>
+<img src="assets/profile-banner.svg" alt="Devraj Pal — Python, machine learning, data systems, and open source" width="100%" />
 
-<p><strong>Python Developer · ML &amp; Data Systems · Open-Source Contributor</strong></p>
+<br />
 
-<p>Building ML pipelines, pricing and forecasting systems, and data-heavy backends.</p>
+<a href="https://linkedin.com/in/devraj-pal"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="mailto:connectingwithdev@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email" /></a>
+<a href="https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged"><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged&label=PRs%20merged&style=for-the-badge&color=22D3EE&logo=github&logoColor=white" alt="Merged pull requests" /></a>
+<a href="https://github.com/itzzdev09"><img src="https://komarev.com/ghpvc/?username=itzzdev09&style=for-the-badge&color=8B5CF6&label=PROFILE%20VIEWS" alt="Profile views" /></a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-devraj--pal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/devraj-pal)
-[![Email](https://img.shields.io/badge/Email-connectingwithdev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:connectingwithdev@gmail.com)
-[![Merged PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20-user%3Aitzzdev09%20-user%3Aaxitya-sharmx%20-user%3ACalmNerd%20-user%3ASuvradip01&label=merged%20OSS%20PRs&style=flat-square&color=3776AB&logo=git&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09+-user%3Aaxitya-sharmx+-user%3ACalmNerd+-user%3ASuvradip01)
-[![Total merged PRs](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged&label=total%20merged%20PRs&style=flat-square&color=2ea44f&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-[![Profile views](https://komarev.com/ghpvc/?username=itzzdev09&style=flat-square&color=3776AB&label=views)](https://github.com/itzzdev09)
+<strong>Python · ML systems · Data engineering · Open source</strong>
 
 </div>
 
+---
+
+## `profile.load()`
+
 ```python
->>> import devraj
 >>> devraj.whoami()
 {
-    "name":      "Devraj Pal",
-    "location":  "Hyderabad, India",
-    "main":      "Python 🐍",
-    "builds":    ["ML pipelines", "pricing & forecasting systems", "data-heavy backends"],
-    "hobby":     "reading other people's code until I find the bug",
+    "base":      "Python",
+    "focus":     ["ML pipelines", "pricing & forecasting", "data-heavy backends"],
     "stack":     ["pandas", "scikit-learn", "PyTorch", "FastAPI", "Kafka", "Redis"],
+    "location":  "Hyderabad, India",
+    "sidequest": "reading other people's code until I find the bug",
 }
 >>> devraj.currently()
-'shipping PrismPrice and sending fixes upstream'
+"shipping PrismPrice and sending fixes upstream"
 ```
 
-## `$ git log --author=itzzdev09 --merged -- open-source/`
+## `git log --author=itzzdev09 --merged`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Selected upstream work across data tools, developer infrastructure, and scientific Python.
 
-### 📂 [fsspec/filesystem_spec](https://github.com/fsspec/filesystem_spec)
-[![stars](https://img.shields.io/github/stars/fsspec/filesystem_spec?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/fsspec/filesystem_spec) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Afsspec%2Ffilesystem_spec&label=merged&style=flat-square&color=2ea44f)](https://github.com/fsspec/filesystem_spec/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-The filesystem layer under pandas, dask, xarray and zarr.<br>
-`FileNotFoundError` for memory/ZIP/TAR/archive paths · `DirFileSystem` delegation · Windows drive-path parsing · `cat_file` offsets
-
-</td>
-<td width="50%" valign="top">
-
-### 📊 [shenxianpeng/gitstats](https://github.com/shenxianpeng/gitstats)
-[![stars](https://img.shields.io/github/stars/shenxianpeng/gitstats?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/shenxianpeng/gitstats) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Ashenxianpeng%2Fgitstats&label=merged&style=flat-square&color=2ea44f)](https://github.com/shenxianpeng/gitstats/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Visual statistics reports from Git history.<br>
-Annotated tags and per-tag commit counts · HTML/SVG escaping of repo names · clear error when no commit matches
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧹 [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff)
-[![stars](https://img.shields.io/github/stars/sqlfluff/sqlfluff?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/sqlfluff/sqlfluff) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Asqlfluff%2Fsqlfluff&label=merged&style=flat-square&color=2ea44f)](https://github.com/sqlfluff/sqlfluff/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Dialect-flexible SQL linter and auto-formatter.<br>
-Oracle `FETCH ... PERCENT` · Postgres `COPY` options from PostgreSQL 15–18
-
-</td>
-<td width="50%" valign="top">
-
-### 🔍 [mvt-project/mvt](https://github.com/mvt-project/mvt)
-[![stars](https://img.shields.io/github/stars/mvt-project/mvt?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/mvt-project/mvt) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Amvt-project%2Fmvt&label=merged&style=flat-square&color=2ea44f)](https://github.com/mvt-project/mvt/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Amnesty International's mobile forensics toolkit for spyware.<br>
-Indicator matching on whole path components · `www.` prefix stripping · dumpsys parsers that survive truncated bug reports
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📐 [PythonOT/POT](https://github.com/PythonOT/POT)
-[![stars](https://img.shields.io/github/stars/PythonOT/POT?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/PythonOT/POT) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3APythonOT%2FPOT&label=merged&style=flat-square&color=2ea44f)](https://github.com/PythonOT/POT/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Python Optimal Transport.<br>
-UCOOT entropic regularisation called `div_to_product` with swapped arguments
-
-</td>
-<td width="50%" valign="top">
-
-### 👁️ [pymovements/pymovements](https://github.com/pymovements/pymovements)
-[![stars](https://img.shields.io/github/stars/pymovements/pymovements?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/pymovements/pymovements) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Apymovements%2Fpymovements&label=merged&style=flat-square&color=2ea44f)](https://github.com/pymovements/pymovements/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Eye-tracking data processing and analysis.<br>
-Categorical and Enum dtypes in BIDS export · `tsplot` broken at temporal gaps · `plotting.screen()` canvas
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ✂️ [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip)
-[![stars](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/zhouxiaoka/autoclip) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3Azhouxiaoka%2Fautoclip&label=merged&style=flat-square&color=2ea44f)](https://github.com/zhouxiaoka/autoclip/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-AI-powered video clipping and highlight generation.<br>
-Subtitle retries no longer re-download the video · millisecond carry in SRT timestamps
-
-</td>
-<td width="50%" valign="top">
-
-### 🦬 [Farama-Foundation/PettingZoo](https://github.com/Farama-Foundation/PettingZoo)
-[![stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=flat-square&logo=github&label=%E2%98%85)](https://github.com/Farama-Foundation/PettingZoo) [![merged](https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aitzzdev09%20is%3Amerged%20repo%3AFarama-Foundation%2FPettingZoo&label=merged&style=flat-square&color=2ea44f)](https://github.com/Farama-Foundation/PettingZoo/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
-
-Multi-agent reinforcement learning environments.<br>
-`PadActionSpace` and `NanZeros` wrappers, AEC and parallel
-
-</td>
-</tr>
-</table>
-
-
-<sub>🔍 [every merged PR →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged+-user%3Aitzzdev09+-user%3Aaxitya-sharmx+-user%3ACalmNerd+-user%3ASuvradip01)</sub>
-
-## `$ ls ~/projects --sort=python`
-
-| | |
+| Repository | Contribution signal |
 |---|---|
-| **📈 [PrismPrice](https://github.com/itzzdev09/PrismPrice)**<br>Dynamic pricing decision support: demand elasticity, retention and causal revenue optimization.<br>`python` `scikit-learn` `pandas` | **🛡️ [XAI-PyTorch-IDS](https://github.com/itzzdev09/XAI-PyTorch-IDS)**<br>Explainable multi-class network intrusion detection with SHAP on imbalanced data.<br>`pytorch` `catboost` `shap` |
-| **⚡ [dynamic-pricing-pipeline](https://github.com/itzzdev09/dynamic-pricing-pipeline)**<br>Real-time pricing pipeline with streaming ingestion and reinforcement learning.<br>`python` `kafka` `redis` | **🏠 [delhi-rent-forecasting](https://github.com/itzzdev09/delhi-rent-forecasting)**<br>Delhi rental price forecasting with classical ML and LSTM models.<br>`python` `lstm` `scikit-learn` |
-| **🎓 [PrepArsenal](https://github.com/itzzdev09/PrepArsenal)**<br>AI-powered exam prep with previous-year-question analysis and adaptive practice.<br>`python` `typescript` `supabase` | **🏷️ [price-tracker](https://github.com/itzzdev09/price-tracker)**<br>E-commerce price monitoring scraper with email alerts.<br>`python` `scraping` |
+| [fsspec/filesystem_spec](https://github.com/fsspec/filesystem_spec) | Filesystem behavior across memory, ZIP, TAR, and wrapped filesystems; Windows path parsing; `cat_file` offsets. |
+| [shenxianpeng/gitstats](https://github.com/shenxianpeng/gitstats) | Annotated-tag commit counts, safe HTML/SVG names, and clear errors when a commit is missing. |
+| [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff) | Oracle `FETCH ... PERCENT` and PostgreSQL `COPY` options across versions 15–18. |
+| [mvt-project/mvt](https://github.com/mvt-project/mvt) | Whole-path indicator matching, URL normalization, and parsers resilient to truncated diagnostics. |
+| [PythonOT/POT](https://github.com/PythonOT/POT) | Fixed swapped arguments in UCOOT entropic regularization. |
+| [pymovements/pymovements](https://github.com/pymovements/pymovements) | Categorical and Enum BIDS export, temporal-gap plotting, and screen plotting. |
+| [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | Subtitle retries without re-downloading video and accurate millisecond carry in SRT timestamps. |
+| [Farama-Foundation/PettingZoo](https://github.com/Farama-Foundation/PettingZoo) | `PadActionSpace` and `NanZeros` wrappers for AEC and parallel environments. |
 
-## `$ pip list --user`
+[Explore merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3Aitzzdev09+is%3Amerged)
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,django&perline=7" alt="Python and ML" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,docker,kubernetes,azure,linux&perline=7" alt="Data and infrastructure" /><br>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,git,vim&perline=5" alt="Web and tools" />
-</p>
+## `~/projects`
 
-## `$ gitstats ~/projects/PrismPrice`
+| Project | What it does |
+|---|---|
+| [PrismPrice](https://github.com/itzzdev09/PrismPrice) | Pricing decision support: demand elasticity, retention, and causal revenue optimization. `Python` `scikit-learn` `pandas` |
+| [XAI-PyTorch-IDS](https://github.com/itzzdev09/XAI-PyTorch-IDS) | Explainable multi-class intrusion detection using SHAP on imbalanced data. `PyTorch` `CatBoost` `SHAP` |
+| [dynamic-pricing-pipeline](https://github.com/itzzdev09/dynamic-pricing-pipeline) | Streaming pricing pipeline with reinforcement learning. `Kafka` `Redis` |
+| [delhi-rent-forecasting](https://github.com/itzzdev09/delhi-rent-forecasting) | Delhi rental forecasting with classical ML and LSTM models. |
+| [PrepArsenal](https://github.com/itzzdev09/PrepArsenal) | AI-assisted exam prep with question analysis and adaptive practice. `Python` `TypeScript` `Supabase` |
+| [price-tracker](https://github.com/itzzdev09/price-tracker) | E-commerce price monitoring with email alerts. |
+
+## `stack.inspect()`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,django&perline=7" alt="Python and machine learning tools" />
+<br />
+<img src="https://skillicons.dev/icons?i=postgres,redis,kafka,docker,kubernetes,azure,linux&perline=7" alt="Data and infrastructure tools" />
+<br />
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,git,vim&perline=5" alt="Web and developer tools" />
+
+</div>
+
+## `telemetry.report()`
 
 [![Commits](https://itzzdev09.github.io/itzzdev09/badges/commits.svg)](https://itzzdev09.github.io/itzzdev09/)
 [![Last commit](https://itzzdev09.github.io/itzzdev09/badges/last-commit.svg)](https://itzzdev09.github.io/itzzdev09/)
 [![Lines](https://itzzdev09.github.io/itzzdev09/badges/lines.svg)](https://itzzdev09.github.io/itzzdev09/)
 [![Files](https://itzzdev09.github.io/itzzdev09/badges/files.svg)](https://itzzdev09.github.io/itzzdev09/)
 
-<sub>Regenerated every Monday with <a href="https://github.com/shenxianpeng/gitstats">gitstats</a> · <a href="https://itzzdev09.github.io/itzzdev09/">full report →</a></sub>
-
 <div align="center">
-
-```
->>> exit()  # thanks for stopping by 👋
-```
-
+<br />
+<sub><code>SESSION OPEN // BUILD SOMETHING THAT MATTERS</code></sub>
+<br />
+<sub>Thanks for stopping by. See you in the next deploy. 👋</sub>
 </div>
