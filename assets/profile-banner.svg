@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Devraj Pal — Python, machine learning, and open source</title>
+  <desc id="desc">A dark futuristic system dashboard with a neon cyan network and a terminal showing current engineering focus.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d1b"/>
+      <stop offset="0.55" stop-color="#10152b"/>
+      <stop offset="1" stop-color="#101026"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#5b21b6" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#5b21b6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8290b8" stroke-opacity="0.10" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#67e8f9" fill-opacity="0.23"/>
+    </pattern>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <circle cx="1050" cy="174" r="330" fill="url(#aura)"/>
+  <path d="M0 328H1200" stroke="url(#edge)" stroke-opacity="0.75" stroke-width="2"/>
+  <path d="M46 42H1154V318H46Z" fill="none" stroke="#8da3c7" stroke-opacity="0.18"/>
+  <g fill="none" stroke="#67e8f9" stroke-opacity="0.34" stroke-width="1.5">
+    <path d="M760 73h78l28 28h76l34-34h113"/>
+    <path d="M776 291h88l28-28h56l42 42h99"/>
+    <path d="M1082 74v31l-21 21v35"/>
+    <path d="M1120 257v-24l-23-23v-34"/>
+    <path d="M906 72v34l-18 18v30"/>
+  </g>
+  <g fill="#67e8f9" filter="url(#soft-glow)">
+    <circle cx="838" cy="73" r="3"/>
+    <circle cx="942" cy="101" r="3"/>
+    <circle cx="1082" cy="74" r="3"/>
+    <circle cx="864" cy="291" r="3"/>
+    <circle cx="1073" cy="305" r="3"/>
+    <circle cx="906" cy="72" r="3"/>
+  </g>
+  <g fill="none" stroke="#a78bfa" stroke-opacity="0.28">
+    <circle cx="1064" cy="180" r="119"/>
+    <circle cx="1064" cy="180" r="145" stroke-dasharray="3 10"/>
+    <circle cx="1064" cy="180" r="91"/>
+  </g>
+  <circle cx="1064" cy="180" r="5" fill="#a3e635" filter="url(#soft-glow)"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace">
+    <rect x="72" y="65" width="194" height="29" rx="14.5" fill="#102a35" stroke="#22d3ee" stroke-opacity="0.55"/>
+    <circle cx="91" cy="79.5" r="4" fill="#a3e635"/>
+    <text x="105" y="84" font-size="11" letter-spacing="1.5" fill="#a5f3fc">ENGINEER / OPEN SOURCE</text>
+    <text x="70" y="164" font-size="57" font-weight="700" letter-spacing="1.5" fill="#f1f5f9">DEVRAJ PAL</text>
+    <path d="M74 183h80" stroke="url(#edge)" stroke-width="3"/>
+    <text x="72" y="217" font-size="15" font-weight="700" letter-spacing="1.4" fill="url(#accent)">PYTHON  ·  ML SYSTEMS  ·  DATA</text>
+    <text x="72" y="247" font-size="15" fill="#bac6dc">Building useful intelligence from data, code, and open source.</text>
+    <text x="72" y="283" font-size="12" letter-spacing="1" fill="#8191ad">HYDERABAD, INDIA  /  CURRENTLY BUILDING PRISMPRICE</text>
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace">
+    <rect x="787" y="111" width="329" height="151" rx="12" fill="#080d19" fill-opacity="0.92" stroke="url(#edge)" stroke-opacity="0.68"/>
+    <path d="M787 146h329" stroke="#7382a3" stroke-opacity="0.32"/>
+    <circle cx="808" cy="129" r="4" fill="#fb7185"/>
+    <circle cx="823" cy="129" r="4" fill="#facc15"/>
+    <circle cx="838" cy="129" r="4" fill="#a3e635"/>
+    <text x="858" y="133" font-size="10" fill="#8e9bb4">devraj@build-lab:~</text>
+    <text x="809" y="171" font-size="11" fill="#a78bfa">$</text>
+    <text x="824" y="171" font-size="11" fill="#e2e8f0">python devraj.py --status</text>
+    <text x="809" y="196" font-size="11" fill="#a3e635">[ ready ]</text>
+    <text x="875" y="196" font-size="11" fill="#cbd5e1">ML pipelines</text>
+    <text x="809" y="218" font-size="11" fill="#22d3ee">[ active ]</text>
+    <text x="875" y="218" font-size="11" fill="#cbd5e1">pricing + forecasting</text>
+    <text x="809" y="240" font-size="11" fill="#a78bfa">[ upstream ]</text>
+    <text x="893" y="240" font-size="11" fill="#cbd5e1">open-source fixes</text>
+  </g>
+</svg>
