@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "generated_by": "gitstats 2.12.0",
+  "generated_at": "2026-10-26T08:19:20+00:00",
+  "name": "PrismPrice",
+  "report_path": "index.html",
+  "first_commit": "2026-08-17 18:24:48",
+  "last_commit": "2026-10-25 11:08:56",
+  "age_days": 69,
+  "active_days": 12,
+  "total_commits": 67,
+  "total_authors": 1,
+  "active_authors_12mo": 1,
+  "commits_last_12mo": 67,
+  "total_files": 221,
+  "total_lines": 115329,
+  "lines_added": 120011,
+  "lines_removed": 4682,
+  "total_tags": 0,
+  "era": "birth",
+  "top_authors": [
+    {
+      "name": "itzzdev09",
+      "commits": 67
+    }
+  ],
+  "author_commits": {
+    "itzzdev09": 67
+  },
+  "commits_by_year": {
+    "2026": 67
+  },
+  "ai_assisted": {
+    "commits": 36,
+    "authored": 0,
+    "assistants": {
+      "Claude": 36
+    },
+    "by_month": {
+      "2024-11": 0,
+      "2024-12": 0,
+      "2025-01": 0,
+      "2025-02": 0,
+      "2025-03": 0,
+      "2025-04": 0,
+      "2025-05": 0,
+      "2025-06": 0,
+      "2025-07": 0,
+      "2025-08": 0,
+      "2025-09": 0,
+      "2025-10": 0,
+      "2025-11": 0,
+      "2025-12": 0,
+      "2026-01": 0,
+      "2026-02": 0,
+      "2026-03": 0,
+      "2026-04": 0,
+      "2026-05": 0,
+      "2026-06": 0,
+      "2026-07": 0,
+      "2026-08": 33,
+      "2026-09": 3,
+      "2026-10": 0
+    },
+    "commits_by_month": {
+      "2024-11": 0,
+      "2024-12": 0,
+      "2025-01": 0,
+      "2025-02": 0,
+      "2025-03": 0,
+      "2025-04": 0,
+      "2025-05": 0,
+      "2025-06": 0,
+      "2025-07": 0,
+      "2025-08": 0,
+      "2025-09": 0,
+      "2025-10": 0,
+      "2025-11": 0,
+      "2025-12": 0,
+      "2026-01": 0,
+      "2026-02": 0,
+      "2026-03": 0,
+      "2026-04": 0,
+      "2026-05": 0,
+      "2026-06": 0,
+      "2026-07": 0,
+      "2026-08": 33,
+      "2026-09": 3,
+      "2026-10": 31
+    }
+  },
+  "organizations": {
+    "description": "Commits by the domain of the author's email address. Mail providers anyone can sign up for count as personal, code hosts' private noreply addresses as hidden, CI accounts and accounts named [bot] as bots, and a domain only one person commits from as one_person. A domain says where an address is, not who paid for the work.",
+    "commits": 67,
+    "by_kind": {
+      "organization": 0,
+      "one_person": 0,
+      "personal": 39,
+      "hidden": 28,
+      "unknown": 0,
+      "bot": 0
+    },
+    "organization_count": 0,
+    "last_12mo_from": "2025-11",
+    "top": [],
+    "quarters": {
+      "2026-Q3": {
+        "organization": 0,
+        "one_person": 0,
+        "personal": 36,
+        "hidden": 0,
+        "unknown": 0,
+        "bot": 0
+      },
+      "2026-Q4": {
+        "organization": 0,
+        "one_person": 0,
+        "personal": 3,
+        "hidden": 28,
+        "unknown": 0,
+        "bot": 0
+      }
+    }
+  },
+  "people_last_12mo": {
+    "from": "2025-11",
+    "to": "2026-10",
+    "commits": 67,
+    "authors": 1,
+    "new_authors": 1,
+    "half_of_commits": 1
+  },
+  "humans": {
+    "commits": 67,
+    "commits_by_year": {
+      "2026": 67
+    },
+    "active_days": 12
+  },
+  "source_lines": {
+    "added": 113349,
+    "current": 108489
+  }
+}
